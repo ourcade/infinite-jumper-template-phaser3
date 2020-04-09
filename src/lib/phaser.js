@@ -1,1 +1,1 @@
-export default Phaser
+export default window.Phaser
