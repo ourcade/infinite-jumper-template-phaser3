@@ -20,13 +20,13 @@ jobs:
         filename: SourceWithAssets.zip
         exclusions: '*.git*'
 
-#     - name: Delete Previous latest Release
-#       uses: author/action-rollback@stable
-#       with:
-#         # Using a tag name
-#         tag: 'latest'
-#       env:
-#         GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
+    - name: Delete Previous latest Release
+      uses: author/action-rollback@stable
+      with:
+        # Using a tag name
+        tag: 'latest'
+      env:
+        GITHUB_TOKEN: ${{ secrets.GHA_TOKEN }}
         
     - name: Create Release
       id: create_release
