@@ -5,7 +5,7 @@
 
 ## Overview
 
-This is the source code for an infinite jumper starting point in Phaser 3 as created by the free book: Infinite Jumper in Phaser 3 with Modern JavaScript.
+This is the source code for an infinite jumper starting point in Phaser 3 as created by the free book: [Infinite Jumper in Phaser 3 with Modern JavaScript](https://ourcade.co/books/infinite-jumper-phaser3/).
 
 This project uses no tooling and is intended for beginners to easily start developing games for the web.
 
